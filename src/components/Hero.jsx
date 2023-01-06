@@ -1,5 +1,8 @@
 import React from 'react'
-import img1 from '../assets/Vector(10).png'
+import vector10 from '../assets/Vector(10).png'
+import frame846 from '../assets/Frame846.png'
+import frame847 from '../assets/Frame847.png'
+import frame54 from '../assets/Group5484.png'
 const Hero = () => {
   return (
       <div id='about' className=''>
@@ -22,7 +25,7 @@ const Hero = () => {
                      
                   </div>
                   <div className='relative mt-4'>
-                      <img src={img1} alt="" className='animate-bounce' />
+                      <img src={vector10} alt="" className='animate-bounce' />
                  <p className='text-xs absolute  top-2 -right-5 lg:-right-8 transform -rotate-[30deg]'>Hurry up!</p>
                   </div>
 
@@ -31,11 +34,11 @@ const Hero = () => {
           {/* right side */}
           <div className='w-full lg:w-[45%] flex space-x-6 mt-24'>
               <div >
-               <img className='hover:scale-[1.05] duration-700' src='/src/assets/Frame 846.png'/>
+               <img className='hover:scale-[1.05] duration-700' src={frame846}/>
               </div>
               <div  className = 'flex flex-col space-y-6'>
-                  <img  className='hover:scale-[1.05] duration-700' src="/src/assets/Frame 847.png" alt="" />
-                  <img  className='hover:scale-[1.05] duration-700' src="/src/assets/Group 5484.png" alt="" />
+                  <img  className='hover:scale-[1.05] duration-700' src={frame847} alt="" />
+                  <img  className='hover:scale-[1.05] duration-700' src={frame54} alt="" />
               </div>
           </div>
           </div>
