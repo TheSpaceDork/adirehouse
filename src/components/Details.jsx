@@ -12,7 +12,7 @@ const Details = () => {
   return (
       <main className='pt-24'>
       {/* top flex */}
-          <div id="features" className='flex lg:flex-row flex-col w-full justify-between space-x-16 space-y-12 lg:space-y-0'>
+          <div id="features" className='flex lg:flex-row flex-col w-full justify-between space-x-0 lg:space-x-16 space-y-12 lg:space-y-0'>
               {/* top-left */}
               <div className='flex flex-col space-y-6 w-full  items-center lg:w-[30%]'>
                   <div className="flex flex-col lg:flex-row space-x-0  space-y-6 lg:space-y-0 lg:space-x-6">
