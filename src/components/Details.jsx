@@ -4,7 +4,10 @@ import frame860 from '../assets/Frame860.png'
 import frame861 from '../assets/Frame861.png'
 import frame862 from '../assets/Frame862.png'
 import frame863 from '../assets/Frame863.png'
-
+import frame866 from '../assets/Frame866.png'
+import frame867 from '../assets/Frame867.png'
+import frame868 from '../assets/Frame868.png'
+import frame870 from '../assets/Frame870.png'
 const Details = () => {
   return (
       <main className='pt-24'>
@@ -55,23 +58,23 @@ const Details = () => {
               {/* shop cards */}
               <div id="explore" className='flex flex-col lg:flex-row mt-16 '>
                   <div className='cursor-pointer' >
-                      <img src="/src/assets/Frame 863.png" alt="" />
+                      <img src={frame863} alt="" />
                   </div>
                   <div className='cursor-pointer'>
-                      <img src="/src/assets/Frame 866.png" alt="" />
+                      <img src={frame866} alt="" />
                   </div>
                   <div className='cursor-pointer'>
-                      <img src="/src/assets/Frame 867.png" alt="" />
+                      <img src={frame867} alt="" />
                   </div>
                   <div className='cursor-pointer'>
-                      <img src="/src/assets/Frame 868.png" alt="" />
+                      <img src={frame868} alt="" />
                   </div>
               </div>
           </div>
           {/* join training */}
           <div id="training" className='flex flex-col lg:flex-row items-center justify-between mt-24 space-y-6 lg:space-y-0'>
               <div className="lg:w-[55%] w-full items-center">
-                  <img src="/src/assets/Frame 870.png" alt="" />
+                  <img src={frame870} alt="" />
               </div>
               <div className='space-y-8 w-full lg:w-[40%]'>
                   <h2 className='text-2xl'>Join Our <span className='text-[#b35920]'> Training</span> </h2>
