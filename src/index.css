@@ -33,7 +33,7 @@ button {
   cursor: pointer;
 }
 .showNav {
-  right: 2;
+  right: 0;
   transition: all ease-in-out;
   transition-duration: 800ms;
 }
