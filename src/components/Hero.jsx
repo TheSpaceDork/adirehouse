@@ -1,5 +1,5 @@
 import React from 'react'
-
+import img1 from '../assets/Vector(10).png'
 const Hero = () => {
   return (
       <div id='about' className=''>
@@ -22,7 +22,7 @@ const Hero = () => {
                      
                   </div>
                   <div className='relative mt-4'>
-                      <img src="\src\assets\Vector (10).png" alt="" className='animate-bounce' />
+                      <img src={img1} alt="" className='animate-bounce' />
                  <p className='text-xs absolute  top-2 -right-5 lg:-right-8 transform -rotate-[30deg]'>Hurry up!</p>
                   </div>
 
