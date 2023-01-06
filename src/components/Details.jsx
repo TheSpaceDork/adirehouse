@@ -1,4 +1,9 @@
 import React from 'react'
+import frame859 from '../assets/Frame859.png'
+import frame860 from '../assets/Frame860.png'
+import frame861 from '../assets/Frame861.png'
+import frame862 from '../assets/Frame862.png'
+import frame863 from '../assets/Frame863.png'
 
 const Details = () => {
   return (
@@ -8,12 +13,12 @@ const Details = () => {
               {/* top-left */}
               <div className='flex flex-col space-y-6 w-full  items-center lg:w-[30%]'>
                   <div className="flex flex-col lg:flex-row space-x-0  space-y-6 lg:space-y-0 lg:space-x-6">
-                      <img className='hover:scale-[1.02] duration-700' src="/src/assets/Frame 859.png" alt="" />
-                      <img className='hover:scale-[1.02] duration-700' src="/src/assets/Frame 860.png" alt="" />
+                      <img className='hover:scale-[1.02] duration-700' src={frame859} alt="" />
+                      <img className='hover:scale-[1.02] duration-700' src={frame860} alt="" />
                   </div>
                   <div className="flex lg:flex-row flex-col space-x-0 space-y-6 lg:space-y-0 lg:space-x-6">
-                      <img className='hover:scale-[1.02] duration-700' src="/src/assets/Frame 861.png" alt="" />
-                      <img className='hover:scale-[1.02] duration-700' src="/src/assets/Frame 862.png" alt="" />
+                      <img className='hover:scale-[1.02] duration-700' src={frame861} alt="" />
+                      <img className='hover:scale-[1.02] duration-700' src={frame862} alt="" />
                   </div>
              </div>
               {/* top-right */}
